@@ -1,0 +1,46 @@
+Phising Email
+
+From: PayPal Support <support@paypa1.com>
+Subject: URGENT: Unusual Login Attempt Detected – Action Required!
+
+Dear Customer,
+
+We have detected suspicious activity in your PayPal account from a new device.  
+To avoid temporary suspension, please confirm your identity immediately by clicking the link below:
+
+[Click here to verify your account](http://paypa1-verification-login.com/verify)
+
+Failure to verify your information within 24 hours will result in account suspension.
+
+Thank you,  
+PayPal Security Team
+
+2) Examine sender's email address for spoofing.
+Original Email address:paypal.com
+Phising Email address:paypa1
+
+3) Suspicious Links or Attachments
+
+Link text: [Click here to verify your account]
+Go  to link: http://paypa1-verification-login.com/verify
+The link goes to some other website seems it as a phising email.
+
+4)Look for urgent or threatening language in the email body.
+ 
+Failure to verify your information within 24 hours will result in account suspension.
+It seems to be threatening language.
+
+5)Note any mismatched URLs 
+[Click here to verify your account]
+This link goes to suspicious web page.
+
+6)Summarize phishing traits found in the email.
+
+        Trait			-	         Issues
+Fake email address		-	support@paypa1.com
+Mismatched link destination	-	paypa1-verification-login.com
+Urgent/threatening language	-	account will be suspended in 24 hours
+SPF/DKIM issues in header	-	SDF/DKIM issues found.
+Fake verification link	-	Link does not go to official paypal.com
+
+
